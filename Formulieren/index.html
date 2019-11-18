@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <h1>Een plan voor jouw ontwikkeling</h1>
+    <h3>Dit formulier helpt jou om een beeld te geven over jouw toekomst.</h3>
+
+    <br><br>
+
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+      Naam:
+      <input type="text" name="voornaam" value="" placeholder="Naam Hier">
+
+      Selecteer jouw klas:
+      <select class="" name="">
+        <option value="MG1A">MG1A</option>
+        <option value="MG1B">MG1B</option>
+        <option value="MG1C">MG1C</option>
+        <option value="MG1D">MG1D</option>
+      </select>
+
+      <br><br>
+
+      <br>───────────────────────────────────────────────────────<br>
+      1. Hoe positief ben je op het moment over je opleiding?
+      <br><br>
+      <input type="radio" name="opleiding" value="0">0
+      <input type="radio" name="opleiding" value="1">1
+      <input type="radio" name="opleiding" value="2">2
+      <input type="radio" name="opleiding" value="3">3
+      <input type="radio" name="opleiding" value="4">4
+      <input type="radio" name="opleiding" value="5">5
+      <input type="radio" name="opleiding" value="6">6
+      <input type="radio" name="opleiding" value="7">7
+      <input type="radio" name="opleiding" value="8">8
+      <input type="radio" name="opleiding" value="9">9
+      <input type="radio" name="opleiding" value="10">10
+
+      <br><br><br>
+      2. Hoe gemotiveerd ben je op het moment om je opleiding af te maken?
+      <br><br>
+      <input type="radio" name="afmaken" value="0">0
+      <input type="radio" name="afmaken" value="1">1
+      <input type="radio" name="afmaken" value="2">2
+      <input type="radio" name="afmaken" value="3">3
+      <input type="radio" name="afmaken" value="4">4
+      <input type="radio" name="afmaken" value="5">5
+      <input type="radio" name="afmaken" value="6">6
+      <input type="radio" name="afmaken" value="7">7
+      <input type="radio" name="afmaken" value="8">8
+      <input type="radio" name="afmaken" value="9">9
+      <input type="radio" name="afmaken" value="10">10
+
+      <br><br><br>
+      3. Hoe vertrouwen heb je momenteel in je eigen kunnen?
+      <br><br>
+      <input type="radio" name="kunnen" value="0">0
+      <input type="radio" name="kunnen" value="1">1
+      <input type="radio" name="kunnen" value="2">2
+      <input type="radio" name="kunnen" value="3">3
+      <input type="radio" name="kunnen" value="4">4
+      <input type="radio" name="kunnen" value="5">5
+      <input type="radio" name="kunnen" value="6">6
+      <input type="radio" name="kunnen" value="7">7
+      <input type="radio" name="kunnen" value="8">8
+      <input type="radio" name="kunnen" value="9">9
+      <input type="radio" name="kunnen" value="10">10
+      <br>───────────────────────────────────────────────────────<br>
+
+      <br><br><br><br><br>
+
+      <br>───────────────────────────────────────────────────────<br>
+      4. Wat zijn jouw sterke punten?
+      <br><br>
+      <input type="checkbox" name="sterk" value="html/css">Coderen HTML/CSS<br>
+      <input type="checkbox" name="sterk" value="java">Programmeren in Java<br>
+      <input type="checkbox" name="sterk" value="javascript">Programmeren in JavaScript<br>
+      <input type="checkbox" name="sterk" value="plannen">Planning<br>
+      <input type="checkbox" name="sterk" value="samenwerken">Samenwerken<br><br>
+
+      Extra sterk punt:
+      <input type="text" name="extraSterkePunt" value="" placeholder="Sterk punt hier">
+
+      <br><br><br>
+      5. Nog te ontwikkelen / welke punten kan je nog verbeteren?
+      <br><br>
+      <input type="checkbox" name="sterk" value="html/css">Coderen HTML/CSS
+      <input type="checkbox" name="sterk" value="java">Programmeren in Java
+      <input type="checkbox" name="sterk" value="javascript">Programmeren in JavaScript
+      <input type="checkbox" name="sterk" value="plannen">Planning
+      <input type="checkbox" name="sterk" value="samenwerken">Samenwerken<br><br>
+
+      Extra slecht punt:
+      <input type="text" name="extraSlechtPunt" value="" placeholder="Slecht punt hier">
+      <br>───────────────────────────────────────────────────────<br>
+
+      <br><br><br><br><br>
+      <br>───────────────────────────────────────────────────────<br>
+      6. Wat doe je graag?
+      <br><br>
+      <input type="checkbox" name="graag" value="html/css">Gamen<br>
+      <input type="checkbox" name="graag" value="java">Programmeren<br>
+      <input type="checkbox" name="graag" value="javascript">Sporten<br><br>
+
+      Extra punt:
+      <input type="text" name="extraSterkePunt" value="" placeholder="extra">
+      <br>───────────────────────────────────────────────────────<br>
+
+
+      <br><br><br><br><br>
+      <br>───────────────────────────────────────────────────────<br>
+      Wat zijn jouw plannen voor de toekomst?
+      <br><br>
+      <textarea name="plannen" rows="8" cols="80" class="text"></textarea>
+      <br>───────────────────────────────────────────────────────<br>
+
+      <br><br>
+      <input type="submit" name="verstuur" value="VERSTUUR" class="stuur">
+    </form>
+
+    <br><br><br><br>
+
+    <footer>
+        <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
+    </footer>
+  </body>
+</html>
